@@ -1,0 +1,12 @@
+[02-43-47] 
+加载合图缓存帧:plist/test.plist
+[02-43-47] 
+[string "Public/Utils.lua"]:405: attempt to index local 'widget' (a nil value)
+stack traceback:
+	[string "View/Scene/SceneLogin.lua"]:35: in function 'initNode'
+	[string "View/Scene/SceneLogin.lua"]:17: in function 'ctorCallback'
+	[string "View/Scene/SceneBase.lua"]:20: in function 'ctor'
+	[string "cocos/cocos2d/functions.lua"]:239: in function 'new'
+	[string "Manager/SceneManager.lua"]:49: in function 'getObj'
+	[string "Manager/SceneManager.lua"]:128: in function '_open'
+	[string "View/Scene/SceneLoad.lua"]:279: in function <[string "View/Scene/SceneLoad.lua"]:276>

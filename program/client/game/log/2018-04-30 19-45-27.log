@@ -1,0 +1,19 @@
+[19-45-28] 
+[string "RequireLua.lua"]:13: module 'Layout.LayoutBase' not found:
+	no field package.preload['Layout.LayoutBase']
+	no file '.\Layout\LayoutBase.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Layout\LayoutBase.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Layout\LayoutBase\init.lua'
+	no file 'D:\Program Files (x86)\Lua\5.1\lua\Layout\LayoutBase.luac'
+	no file '.\Layout\LayoutBase.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Layout\LayoutBase.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+	no file '.\Layout.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Layout.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+stack traceback:
+	[string "RequireLua.lua"]:13: in main chunk
+	[C]: in function 'require'
+	[string "D:/work/project/program/client/game//src/Main..."]:84: in function <[string "D:/work/project/program/client/game//src/Main..."]:75>
+	[C]: in function 'xpcall'
+	[string "D:/work/project/program/client/game//src/Main..."]:169: in main chunk

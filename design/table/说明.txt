@@ -1,0 +1,24 @@
+int  不带小数的数字，如果有小数会直接省略小数
+float 带小数的数字
+string 字符串
+bool 0是错，1是对
+
+xlsx文件名字或者路径不能有中文
+字段名命名规则小驼峰
+工具会额外生成两个文件：
+language.lua
+require_config.lua 
+
+
+请将生成的lua文件，拷贝到你工程的src/config/目录下
+再在适当的地方require(require_config),这样就把所有配置加进来了
+
+比如，配置表test.xlsx, 在lua全局变量就是cfgText
+
+
+lua：
+function main()
+	require "config.require_config"
+	dump(cfgTest)
+	print(cfgTest[-1])
+end

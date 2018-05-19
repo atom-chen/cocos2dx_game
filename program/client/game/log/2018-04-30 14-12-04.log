@@ -1,0 +1,17 @@
+[14-12-04] 
+[string "D:/work/project/program/client/game//src/main..."]:63: module 'app.MyApp' not found:
+	no field package.preload['app.MyApp']
+	no file '.\app\MyApp.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\app\MyApp.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\app\MyApp\init.lua'
+	no file 'D:\Program Files (x86)\Lua\5.1\lua\app\MyApp.luac'
+	no file '.\app\MyApp.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\app\MyApp.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+	no file '.\app.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\app.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+stack traceback:
+	[string "D:/work/project/program/client/game//src/main..."]:63: in function <[string "D:/work/project/program/client/game//src/main..."]:60>
+	[C]: in function 'xpcall'
+	[string "D:/work/project/program/client/game//src/main..."]:122: in main chunk

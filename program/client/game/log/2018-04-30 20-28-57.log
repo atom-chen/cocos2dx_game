@@ -1,0 +1,17 @@
+[20-28-58] 
+[string "Manager/SceneManager.lua"]:102: module 'Scene.SceneLoad' not found:
+	no field package.preload['Scene.SceneLoad']
+	no file '.\Scene\SceneLoad.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Scene\SceneLoad.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Scene\SceneLoad\init.lua'
+	no file 'D:\Program Files (x86)\Lua\5.1\lua\Scene\SceneLoad.luac'
+	no file '.\Scene\SceneLoad.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Scene\SceneLoad.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+	no file '.\Scene.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Scene.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+stack traceback:
+	[string "Manager/SceneManager.lua"]:102: in function <[string "Manager/SceneManager.lua"]:73>
+	[C]: in function 'xpcall'
+	[string "D:/work/project/program/client/game//src/Main..."]:169: in main chunk

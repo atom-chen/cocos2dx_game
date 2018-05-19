@@ -1,0 +1,21 @@
+[20-01-00] 
+[string "Manager/NetworkManager.lua"]:9: module 'Data.Login' not found:
+	no field package.preload['Data.Login']
+	no file '.\Data\Login.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Data\Login.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Data\Login\init.lua'
+	no file 'D:\Program Files (x86)\Lua\5.1\lua\Data\Login.luac'
+	no file '.\Data\Login.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Data\Login.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+	no file '.\Data.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Data.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+stack traceback:
+	[string "Manager/NetworkManager.lua"]:9: in main chunk
+	[C]: in function 'require'
+	[string "RequireLua.lua"]:35: in main chunk
+	[C]: in function 'require'
+	[string "D:/work/project/program/client/game//src/Main..."]:84: in function <[string "D:/work/project/program/client/game//src/Main..."]:75>
+	[C]: in function 'xpcall'
+	[string "D:/work/project/program/client/game//src/Main..."]:169: in main chunk

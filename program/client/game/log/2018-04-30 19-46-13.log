@@ -1,0 +1,23 @@
+[19-46-13] 
+[string "View/Layout/LayoutDefinition.lua"]:29: module 'Layout.LayoutBattleReward' not found:
+	no field package.preload['Layout.LayoutBattleReward']
+	no file '.\Layout\LayoutBattleReward.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Layout\LayoutBattleReward.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Layout\LayoutBattleReward\init.lua'
+	no file 'D:\Program Files (x86)\Lua\5.1\lua\Layout\LayoutBattleReward.luac'
+	no file '.\Layout\LayoutBattleReward.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Layout\LayoutBattleReward.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+	no file '.\Layout.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Layout.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+stack traceback:
+	[string "View/Layout/LayoutDefinition.lua"]:29: in main chunk
+	[C]: in function 'require'
+	[string "Manager/LayoutManager.lua"]:8: in main chunk
+	[C]: in function 'require'
+	[string "RequireLua.lua"]:32: in main chunk
+	[C]: in function 'require'
+	[string "D:/work/project/program/client/game//src/Main..."]:84: in function <[string "D:/work/project/program/client/game//src/Main..."]:75>
+	[C]: in function 'xpcall'
+	[string "D:/work/project/program/client/game//src/Main..."]:169: in main chunk

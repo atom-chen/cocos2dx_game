@@ -1,0 +1,3 @@
+[14-16-39] 
+[string "app/views/RegisterScene.lua"]:201: attempt to index field 'inputPasswordRepeat' (a nil value)
+stack traceback:

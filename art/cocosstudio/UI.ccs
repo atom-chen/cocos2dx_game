@@ -1,0 +1,87 @@
+<Solution>
+  <PropertyGroup Name="UI" Version="2.3.3.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Csb">
+          <Folder Name="Layout">
+            <Project Name="LayerTest.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="Popup">
+            <Project Name="PopupMsg1.csd" Type="Node" />
+            <Project Name="PopupMsg2.csd" Type="Node" />
+            <Project Name="PopupMsg3.csd" Type="Node" />
+          </Folder>
+          <Folder Name="Scene">
+            <Project Name="SceneLoad.csd" Type="Scene" />
+            <Project Name="SceneLogin.csd" Type="Scene" />
+            <Project Name="SceneMain.csd" Type="Scene" />
+          </Folder>
+        </Folder>
+        <Folder Name="Default">
+          <PlistParticleFile Name="defaultParticle.plist" />
+          <Image Name="Button_Disable.png" />
+          <Image Name="Button_Normal.png" />
+          <Image Name="Button_Press.png" />
+          <Image Name="CheckBoxNode_Disable.png" />
+          <Image Name="CheckBoxNode_Normal.png" />
+          <Image Name="CheckBox_Disable.png" />
+          <Image Name="CheckBox_Normal.png" />
+          <Image Name="CheckBox_Press.png" />
+          <Image Name="ImageFile.png" />
+          <Image Name="LoadingBarFile.png" />
+        </Folder>
+        <Folder Name="Font">
+          <TTF Name="default.ttf" />
+        </Folder>
+        <Folder Name="Image">
+          <Image Name="bg1.jpg" />
+          <Image Name="bg2.jpg" />
+          <Image Name="bg3.jpg" />
+          <Image Name="bg4.png" />
+          <Image Name="timg.jpg" />
+          <Image Name="zjh.png" />
+        </Folder>
+        <Folder Name="Mp4">
+          <File Name="cg.mp4" />
+        </Folder>
+        <Folder Name="Particle">
+          <PlistParticleFile Name="particle_texture.plist" />
+        </Folder>
+        <Folder Name="Plist">
+          <PlistImageFolder Image="test.png" PListFile="test.plist" Name=".test_PList.Dir">
+            <PlistImageFile Name="airship.png" Key="airship.png" />
+            <PlistImageFile Name="cre-store.png" Key="cre-store.png" />
+            <PlistImageFile Name="facebook.png" Key="facebook.png" />
+            <PlistImageFile Name="level mid-floor 1.png" Key="level mid-floor 1.png" />
+            <PlistImageFile Name="level mid-floor 2.png" Key="level mid-floor 2.png" />
+            <PlistImageFile Name="scr-canc-advertising.png" Key="scr-canc-advertising.png" />
+            <PlistImageFile Name="scr-canc-butt-level.png" Key="scr-canc-butt-level.png" />
+            <PlistImageFile Name="scr-canc-level.png" Key="scr-canc-level.png" />
+            <PlistImageFile Name="scr-lock.png" Key="scr-lock.png" />
+            <PlistImageFile Name="scr-money.png" Key="scr-money.png" />
+            <PlistImageFile Name="scr-mov-left.png" Key="scr-mov-left.png" />
+            <PlistImageFile Name="scr-mov-right.png" Key="scr-mov-right.png" />
+            <PlistImageFile Name="scr-ranking.png" Key="scr-ranking.png" />
+            <PlistImageFile Name="scr-resurgence.png" Key="scr-resurgence.png" />
+            <PlistImageFile Name="scr-sele-butt-level.png" Key="scr-sele-butt-level.png" />
+            <PlistImageFile Name="scr-sele-level.png" Key="scr-sele-level.png" />
+            <PlistImageFile Name="scr-setup.png" Key="scr-setup.png" />
+            <PlistImageFile Name="scr-stamina.png" Key="scr-stamina.png" />
+            <PlistImageFile Name="weixin.png" Key="weixin.png" />
+          </PlistImageFolder>
+        </Folder>
+        <Folder Name="Sound">
+          <Audio Name="bg1.mp3" />
+          <Audio Name="bg2.mp3" />
+          <Audio Name="bg3.mp3" />
+          <Audio Name="bg4.mp3" />
+          <Audio Name="bg5.mp3" />
+          <Audio Name="bg6.mp3" />
+          <Audio Name="bg7.mp3" />
+          <Audio Name="button.mp3" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

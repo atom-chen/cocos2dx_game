@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{fc5cb953-2953-4968-83b3-39e3ff951754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{037a9a02-b906-4cc5-ad98-304acd4e25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2d1d0979-58cd-4ab6-b91c-13650158f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\pbc">
+      <UniqueIdentifier>{949a941d-8d1f-4ba2-b76b-59b603edc1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WinLuaDebuger">
+      <UniqueIdentifier>{5e19175b-614b-448c-b69e-dfacec076f13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimulatorWin.h" />
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WinLuaDebuger\WinLuaDebuger.h">
+      <Filter>Classes\WinLuaDebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\alloc.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\array.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\bootstrap.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\context.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\descriptor.pbc.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\map.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\pattern.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\pbc.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\pbclua.hpp">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\proto.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\stringpool.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pbc\varint.h">
+      <Filter>Classes\pbc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatorWin.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WinLuaDebuger\WinLuaDebuge.cpp">
+      <Filter>Classes\WinLuaDebuger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\alloc.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\array.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\bootstrap.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\context.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\decode.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\map.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\pattern.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\pbclua.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\proto.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\register.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\rmessage.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\stringpool.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\varint.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pbc\wmessage.cpp">
+      <Filter>Classes\pbc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+[14-00-18] 
+[string "packages/mvc/AppBase.lua"]:47: attempt to index field 'configs_' (a nil value)
+stack traceback:
+	[string "packages/mvc/AppBase.lua"]:41: in function 'enterScene'
+	[string "app/views/MainScene.lua"]:133: in function <[string "app/views/MainScene.lua"]:131>

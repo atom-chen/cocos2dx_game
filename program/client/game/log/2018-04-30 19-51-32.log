@@ -1,0 +1,21 @@
+[19-51-32] 
+[string "Manager/SceneManager.lua"]:8: module 'Scene.SceneDefinition' not found:
+	no field package.preload['Scene.SceneDefinition']
+	no file '.\Scene\SceneDefinition.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Scene\SceneDefinition.lua'
+	no file 'D:\work\project\program\client\game\simulator\win32\lua\Scene\SceneDefinition\init.lua'
+	no file 'D:\Program Files (x86)\Lua\5.1\lua\Scene\SceneDefinition.luac'
+	no file '.\Scene\SceneDefinition.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Scene\SceneDefinition.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+	no file '.\Scene.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\Scene.dll'
+	no file 'D:\work\project\program\client\game\simulator\win32\loadall.dll'
+stack traceback:
+	[string "Manager/SceneManager.lua"]:8: in main chunk
+	[C]: in function 'require'
+	[string "RequireLua.lua"]:33: in main chunk
+	[C]: in function 'require'
+	[string "D:/work/project/program/client/game//src/Main..."]:84: in function <[string "D:/work/project/program/client/game//src/Main..."]:75>
+	[C]: in function 'xpcall'
+	[string "D:/work/project/program/client/game//src/Main..."]:169: in main chunk

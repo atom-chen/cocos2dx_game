@@ -1,0 +1,9 @@
+[20-31-23] 
+[string "View/Scene/SceneLoad.lua"]:40: attempt to call method 'seekNodeByName' (a nil value)
+stack traceback:
+	[string "View/Scene/SceneLoad.lua"]:82: in function 'ctorCallback'
+	[string "View/Scene/SceneBase.lua"]:20: in function 'ctor'
+	[string "cocos/cocos2d/functions.lua"]:239: in function 'new'
+	[string "Manager/SceneManager.lua"]:102: in function <[string "Manager/SceneManager.lua"]:73>
+	[C]: in function 'xpcall'
+	[string "D:/work/project/program/client/game//src/Main..."]:169: in main chunk
